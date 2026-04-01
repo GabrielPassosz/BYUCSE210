@@ -1,9 +1,8 @@
-using System;
-
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
-        Console.WriteLine("Hello World! This is the Mindfulness Project.");
+        MindfulnessApp app = new MindfulnessApp();
+        app.Run();
     }
 }
